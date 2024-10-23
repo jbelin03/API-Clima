@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(180deg, rgb(54, 81, 237), #1b6560 100%);
+    display: flex;
+    justify-content: baseline;
+    margin-left: 150px;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide{
+    display: none;
+}
+.container{
+
+    background-color: rgb(36, 208, 199);
+    box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+    padding: 2rem;
+    color: rgb(47, 66, 79) ;
+    border-radius: 1rem;
+
+}
+
+.form-input-container {
+
+    display: flex;
+
+}
+
+.form input{
+
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.form button {
+
+    padding: 0.8rem;
+    min-width: 50px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    border: rgba(69, 63, 63, 0.814);
+
+}
+
+#weather-data{
+
+    border-top: 1px solid #231acf;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+
+}
+
+#weather-data h2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+
+}
+
+#weather-data h2 i {
+
+    font-size: 1rem;
+}
+
+#weather-data span {
+    margin: 0.6rem;
+}
+
+#description {
+
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#description-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+#details-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#details-container #humidity {
+
+    border-right: 1px solid #5308c3;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+
+.map {
+    width: 70%; 
+    height: 700px; 
+    margin-left: 60px;
+}
